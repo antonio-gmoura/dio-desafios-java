@@ -6,6 +6,8 @@
 
 ** Princípios Básicos
 
+** Bootcamp Spring Experience
+
 **Desafio**
 
 Faça um programa com as características abaixo:
@@ -27,13 +29,15 @@ Para cada arquivo da entrada, terá um arquivo de saída. E como mencionado no D
 | ---------------------------------------- | ----------------- |
 | USP <br />UFPE <br />UFCG<br />UFRN<br />UFRJ<br />IME<br />ITA <br />NIOESTE<br />URI<br />UFG |UFCG<br />ITA<br />URI|
 
-------
+
 
 # Médias Ponderadas
 
 ** Básico
 
 ** Princípios Básicos
+
+** Bootcamp Spring Experience
 
 **Desafio**
 
@@ -52,13 +56,15 @@ Para cada caso de teste, imprima a média ponderada dos 3 valores, conforme exem
 | ---------------------------------------- | ----------------- |
 | 3<br/>6.5 4.3 6.2<br />5.1 4.2 8.1<br/>8.0 9.0 10.0| <br/>5.7<br/>6.3<br/>9.3|
 
-------
+
 
 # Jogadores Viciados
 
 ** Básico
 
 ** Princípios Básicos
+
+** Bootcamp Spring Experience
 
 **Desafio**
 
@@ -83,3 +89,33 @@ Para cada caso de teste, imprima uma única linha com um número indicando quant
 | Exemplo de Entrada                                           | Exemplo de Saída |
 | ------------------------------------------------------------ | ---------------- |
 | 7 5558<br/>5693 1<br/>5558 0<br/>6009 1<br/>5558 1<br/>1566 0<br/>5558 0<br/>8757 1 | 2                |
+
+
+
+# Proibido a entrada de menores!
+
+** Básico
+
+** Princípios Básicos
+
+** Bootcamp Spring Experience
+
+**Desafio**
+
+O objetivo deste desafio é resolvê-lo utilizando o seu conhecimento sobre Arrays, uma estrutura de dados que armazena uma coleção de dados em um bloco de memória.
+
+Você está desenvolvendo um sistema para um local de eventos, neste local, é necessário que a entrada seja permitida apenas para pessoas acima de 18 anos. Faça um programa para ler um número N, a idade de N pessoas. Depois disso, coloque a idade mínima permitida para se entrar no local, conforme exemplo.
+Retorne às idades de quem não puder entrar.
+
+**Entrada**
+
+A entrada será composta na primeira linha pelo tamanho da array e nas linhas subsequentes pelas idades que preenchem essa array
+
+**Saída**
+
+A saída deverá retornar as idades que não são permitidas a entrada, conforme exemplo abaixo.
+
+| **Entrada**                   | **Saída**                            |
+| ----------------------------- | ------------------------------------ |
+| 4<br/>18<br/>22<br/>15<br/>50 | Nao poderao entrar as idades:<br/>15 |
+| 3<br/>50<br/>10<br/>65 | Nao poderao entrar as idades:<br/>10 |
