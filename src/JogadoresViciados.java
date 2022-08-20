@@ -1,25 +1,25 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class JogadoresViciados {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        int number,id;
+        int number, id;
 
-        number=sc.nextInt();
-        id=sc.nextInt();
+        number = sc.nextInt();
+        id = sc.nextInt();
 
-        int count=0;
-        while(number>0){
+        int count = 0;
+        while (number > 0) {
 
-            int id1,num;
+            int id1, num;
 
-            id1=sc.nextInt();
-            num=sc.nextInt();
+            id1 = sc.nextInt();
+            num = sc.nextInt();
 
-            if(id == id1 && num == 0) {
+            if (id == id1 && num == 0) {
                 count++;
             }
             number--;

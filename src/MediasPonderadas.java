@@ -1,14 +1,14 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class MediasPonderadas
-{
-    public static void main(String[] args)
-    {
+public class MediasPonderadas {
+
+    public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
 
         int casos = input.nextInt();
         int cont = 0;
-        while (cont < casos){
+        while (cont < casos) {
 
             double a = input.nextDouble();
             double b = input.nextDouble();
@@ -20,6 +20,5 @@ public class MediasPonderadas
 
             cont++;
         }
-
     }
 }
