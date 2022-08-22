@@ -222,3 +222,33 @@ Para cada teste, a saída contém na primeira linha a mensagem "ALTURA = ", com 
 | 1450.00<br/>25.00<br/>760.00<br/>40.00<br/>7500.00<br/>15.00 | ALTURA = 2.96<br/>AREA = 490.62<br/>ALTURA = 0.61<br/>AREA = 1256.00<br/>ALTURA = 42.46<br/>AREA = 176.62 |
 
 Dedicado à equipe Los Miserables e turma GTI do UNIPÊ de 2015.
+
+
+
+# Idades
+
+** Básico
+
+** Princípios Básicos
+
+** Santander Bootcamp Fullstack Developer
+
+**Desafio**
+
+Faça um algoritmo para ler um número indeterminado de dados, contendo cada um, a idade de um indivíduo. O último dado, que não entrará nos cálculos, contém o valor de idade negativa. Calcular e imprimir a idade média deste grupo de indivíduos.
+
+**Entrada**
+
+A entrada contém um número indeterminado de inteiros. A entrada será encerrada quando um valor negativo for lido.
+
+**Saída**
+
+A saída contém um valor correspondente à média de idade dos indivíduos.
+
+A média deve ser impressa com dois dígitos após o ponto decimal.
+
+| Exemplo de Entrada             | Exemplo de Saída |
+| ------------------------------ | ---------------- |
+| 34<br/>56<br/>44<br/>23<br/>-2 | 39.25            |
+
+Agradecimentos a Cassio F.
